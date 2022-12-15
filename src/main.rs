@@ -32,9 +32,6 @@ fn last_visited_pid_mru() -> ForensicResult<()> {
                 }
                 else {
                     contador = 0;
-                }
-                
-                if !i.eq("00") {
                     aux.push_str(&i);
                 }
 
